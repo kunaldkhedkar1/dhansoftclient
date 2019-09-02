@@ -26,9 +26,11 @@ export default function AddNew(props) {
 
   return (
     <div className={classes.root}>
+    <button onClick={onClickIcon}>
       <Icon className={classes.icon} color="primary" onClick={onClickIcon}>
         add_circle
       </Icon>
+      </button>
       {label}
     </div>
   );
